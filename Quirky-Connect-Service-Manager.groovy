@@ -80,14 +80,14 @@ private getVendorIcon()		{ "https://s3.amazonaws.com/smartapp-icons/Partner/quir
 private getClientId() 		{ "c22d82a7fc3d6faf06dcff1bcf0feb52" } // Dan Lieberman's
 private getClientSecret() 	{ "bd44c524a1df9dce134235d174350603" }
 
-private getServerUrl() 		{ "https://graph.api.smartthings.com" }
+private getServerUrl() 		{ "https://graph-na02-useast1.api.smartthings.com" }
 
 
 // Automatically generated. Make future change here.
 definition(
     name: "Quirky (Connect)",
-    namespace: "wackford",
-    author: "Todd Wackford",
+    namespace: "DanielGoad",
+    author: "Daniel Goad - forked from Todd Wackford",
     description: "Connect your Quirky to SmartThings.",
     category: "My Apps",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/Partner/quirky.png",
